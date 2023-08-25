@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./Land_Page.css" />
+    <link rel="stylesheet" href="./Mobile.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="headerSession">
+        <div class="navBar">
+          <div class="Title">Aventurist</div>
+          <div class="navLinkContainer">
+            <div class="navLink">
+              <li>Home</li>
+              <li>About Us</li>
+              <li>Services</li>
+              <li>Contact us</li>
+            </div>
+            <button class="navBtn">Book Now</button>
+          </div>
+          <div class="menu">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+          </div>
+        </div>
+     
+      </div>
+  
+      <div class="bodySession">
+        <div class="textDiv">
+          <div>
+            <h4>Our Services</h4>
+            <h1>
+              Join The Adventure <br />
+              With Stories.
+            </h1>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Architecto delectus modi dicta similique dolore iste velit, maxime
+              quidem ab, fuga aut repellendus explicabo. Odio perspiciatis
+              nesciunt tempore obcaecati exercitationem?
+            </p>
+            <div class="iconsBox">
+              <div class="imgHolder">
+                <img src="./IMG/icon1.png" />
+                <p>Custom Destination</p>
+              </div>
+              <div class="imgHolder">
+                <img src="./IMG/icon2.png" />
+                <p>Unforgeting Moment</p>
+              </div>
+              <div class="imgHolder">
+                <img src="./IMG/icon3.png" />
+                <p>Competitive Pricing</p>
+              </div>
+            </div>
+            <div class="iconsBox">
+              <div class="imgHolder">
+                <img src="./IMG/icon4.png" />
+                <p>Self Guide</p>
+              </div>
+              <div class="imgHolder">
+                <img src="./IMG/icon5.png" />
+                <p>24/7 Avaliable</p>
+              </div>
+              <div class="imgHolder">
+                <img src="./IMG/icon6.png" />
+                <p>Transportation</p>
+              </div>
+            </div>
+            <div class="btn-flex">
+              <button class="iconBtn">See all services</button>
+            </div>
+          </div>
+        </div>
+        <div class="imgDiv">
+          <img src="./IMG/icon7.png" alt="" />
+        </div>
+      </div>
+      <div class="thirdBodySession">
+        <h2>
+          Let us show you the beauty of <br />
+          the world.
+        </h2>
+        <button class="navBtn">Book Now</button>
+      </div>
+      <div style="position: relative">
+        <div class="cards">
+          <div class="card"></div>
+          <div class="card"></div>
+          <div class="card"></div>
+          <div class="card"></div>
+        </div>
+      </div>
+      <div class="forthBodySession">
+        <div class="flex-all">
+          <div class="cardBox">
+            <div style="width: 400px">
+              <h3>Special offer for couuples</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum
+                fuga harum saepe eligendi ducimus
+              </p>
+            </div>
+            <img src="./IMG/icon8.png" class="styleImg" />
+          </div>
+          <div class="cardBox2">
+            <img src="./IMG/icon9.png" class="styleImg" />
+            <div style="width: 400px">
+              <h3>Special offer on adventure tour</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum
+                fuga harum saepe eligendi ducimus
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="footerSession">
+          <div style="width: 100%; display: flex; justify-content: space-between;">
+              <div class="footerBox">
+                <h3>Quick Links</h3>
+                 <li>Home</li>
+                 <li>About Us</li>
+                 <li>Destination</li>
+                 <li>Contact</li>
+              </div>
+              <div class="footerBox">
+                <h3>Contact Info</h3>
+                <li>16 Wilmer Crecent Olodi-Apapa,Lagos</li>
+                <li>weblizzNetwork@gmail <br> .com</li>
+                <li>08141393379</li>
+                <div class="a-link">
+                  <a href="">www.weblizzNetwork.com</a>
+                </div>
+              </div>
+              <div class="mdScreen">
+                <div class="footerBox">
+                  <h3>Make A Reservation</h3>
+                  <p>Our Support & Sales Team Is Avaliable 24/7 To 
+                     Answer Your  Questions</p>
+                     <button class="navBtn">Book Now</button>
+                </div>
+              </div>
+          </div>
+        <hr style="color: rgba(207, 137, 7, 0.733);">
+        <div style="width: 100%; display: flex; justify-content: space-between;padding-top: 10px;color:rgba(255, 255, 255, 0.705);">
+          <div class="msScreen">
+            <div class="Title">Aventurist</div>
+            <p>Copyright@2022 All Right Reservered</p>
+          </div>
+        </div>
+      </div>
+      <div class="display-none">
+        <div class="sideNav">
+          <div class="sideDiv">
+            <div class="TitleSm">Aventurist</div>
+            <div class="li-sm">
+              <li>Home</li>
+              <li>About Us</li>
+              <li>Services</li>
+              <li>Contact us</li>
+            </div>
+            <button class="navBtnsm" onclick="pop">Book Now</button>
+          </div>
+          <div class="closeBtn" onclick="closeNav()">x</div>
+        </div>
+      </div>
+    </div>
+    <script>
+      const menuDiv = document.querySelector('.menu')
+      const displayNone = document.querySelector('.display-none')
+      menuDiv.addEventListener('click',display)
+      function display(){
+        displayNone.style.display = 'block'
+      }
+      function closeNav(){
+        displayNone.style.display = 'none'
+      }
+    </script>
+  </body>
+</html>

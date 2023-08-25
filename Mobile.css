@@ -1,0 +1,169 @@
+@media screen and (max-width: 720px) {
+  body{
+    /* overflow-x: hidden; */
+  }
+  .headerSession {
+    height: 50vh;
+  }
+  .headerSession::before {
+    height: 50vh;
+  }
+
+  .navLink {
+    display: none;
+  }
+  .navBtn {
+    display: none;
+  }
+  .textDiv {
+    width: 100%;
+  }
+
+  .iconsBox {
+    gap: 20px;
+    padding: 5px 0;
+  }
+  .imgHolder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .imgHolder p {
+    text-align: center;
+  }
+  .btn-flex {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .imgDiv {
+    display: none;
+  }
+  .thirdBodySession {
+    height: 50vh;
+  }
+  .thirdBodySession::before {
+    height: 50vh;
+  }
+  .thirdBodySession h2 {
+    font-size: 23px;
+  }
+  .cards {
+    display: none;
+  }
+  .forthBodySession {
+    top: 0;
+  }
+  .flex-all {
+    display: block;
+  }
+  .cardBox {
+    width: 100%;
+  }
+  .cardBox2 {
+    width: 100%;
+  }
+  .footerBox{
+    width: 50%;
+    font-size: 13px;
+  }
+  .footerSession {
+    height: 45vh;
+    top: 0;
+  }
+  .mdScreen{
+    display: none;
+  }
+
+  .menu{
+    width: 30px;
+    height: 40px;
+    display: block;
+    z-index: 100;
+  }
+  .line{
+    width: 100%;
+    height: 3px;
+    background-color: white;
+    margin-top: 5px;
+  }
+  .display-none{
+    display: none;
+  }
+  .sideNav{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.548);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    display: block;
+    display: flex;
+    justify-content: flex-end;
+    z-index: 100;
+  }
+  .sideDiv{
+    width: 300px;
+    min-height: 100vh;
+    background-color: rgb(239, 244, 250);
+    padding: 0 10px;
+    padding-top: 30px;
+  }
+  .closeBtn{
+    width: 200px;
+    height: 50px;
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1% 6%;
+    margin-top: -20px;
+    z-index: 100;
+  }
+  .TitleSm{
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+  }
+  .li-sm{
+    width: 100%;
+    height: 30vh;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .li-sm li{
+    font-size: 20px;
+    font-weight: 500;
+    list-style-type: none;
+  }
+  .navBtnsm {
+    width: 140px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    font-weight: 700;
+    background-color: rgba(255, 166, 0, 0.788);
+    color: white;
+    z-index: 100;
+  }
+}
+
+@media screen and (max-width: 320px) {
+
+  .footerSession{
+    height: 70vh;
+  }
+  .cardBox p{
+    width: 90%;
+    padding-right:20%;
+  }
+  .cardBox2 p{
+    width: 90%;
+    padding-right:20%;
+  }
+  .li-sm{
+    height: 40vh;
+  }
+}
